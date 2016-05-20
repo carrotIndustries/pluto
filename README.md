@@ -63,7 +63,7 @@ A: Smartwatches have a miserable battery life of one week at best. Some
 even require user interaction to display the time.
 
 Q: Why isn't there some sort of radio interface? (BLE, nRF24L01)  
-A: Take look at this picture to get an idea of the space available 
+A: Take look at [this](photos#perfect-fit) picture to get an idea of the space available 
 inside of the F-91W frame. The nRF24L01 is 4 mm×4 mm and barely fits, but 
 requires external components like balun and antenna. There's no space 
 for these. An IR receiver is the same size as the nRF24L01, but doesn't 
