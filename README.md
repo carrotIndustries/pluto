@@ -23,6 +23,7 @@ a MSP430FR6972 MCU, a digital magnetometer (compass) and a 38 kHz
 infrared receiver for software updates and communication. Due to 
 careful planning and luck, the Pluto PCB perfectly fits inside of the 
 F-91W's mounting frame, although it houses many more components.
+[Schematic as PDF](f-91.pdf)
 
 ##MCU
 The MSP430FR6972 is a low-power 16bit MCU with integrated segment LCD 

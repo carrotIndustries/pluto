@@ -1,0 +1,16 @@
+*.gbl
+*.gbr
+*.svg
+*.gbs
+*.gm1
+*.gtl
+*.gts
+*.drl
+*.bak
+*.bck
+*.dcm
+*.drl
+*.kicad_pcb-bak
+*.net
+_saved_*
+*.xml
