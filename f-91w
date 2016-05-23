@@ -1,0 +1,19 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM grouped by value and footprint </title>
+    </head>
+    <body>
+    <h1>f-91w.sch</h1>
+    <p>Mon 23 May 2016 07:05:55 PM CEST</p>
+    <p>Eeschema 4.0.2-stable</p>
+    <p><b>Component Count:</b>30</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Symbol</th><th>Footprint</th><th>Description</th><th>PartNumber</th><th>Vendor</th></tr><tr><td>C1</td><td align=center>1</td><td align=center>4.7u</td><td align=center>C</td><td align=center>Capacitors_SMD:C_0402</td><td align=center>Unpolarized capacitor</td><td align=center></td><td align=center></td></tr><tr><td>C2, C3</td><td align=center>2</td><td align=center>22p</td><td align=center>C</td><td align=center>Capacitors_SMD:C_0402</td><td align=center>Unpolarized capacitor</td><td align=center></td><td align=center></td></tr><tr><td>C4, C5, C6, C7, C8</td><td align=center>5</td><td align=center>100n</td><td align=center>C</td><td align=center>Capacitors_SMD:C_0402</td><td align=center>Unpolarized capacitor</td><td align=center></td><td align=center></td></tr><tr><td>P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P13, P14, P15</td><td align=center>14</td><td align=center>CONN_01X01</td><td align=center>CONN_01X01</td><td align=center>Connect:1pin</td><td align=center>Connector 01x01</td><td align=center></td><td align=center></td></tr><tr><td>Q1</td><td align=center>1</td><td align=center>BC846</td><td align=center>Q_NPN_BEC</td><td align=center>f-91w:SOT416</td><td align=center>Transistor NPN (general)</td><td align=center></td><td align=center></td></tr><tr><td>R1, R3</td><td align=center>2</td><td align=center>10k</td><td align=center>R</td><td align=center>Resistors_SMD:R_0402</td><td align=center>Resistor</td><td align=center></td><td align=center></td></tr><tr><td>R2</td><td align=center>1</td><td align=center>47k</td><td align=center>R</td><td align=center>Resistors_SMD:R_0402</td><td align=center>Resistor</td><td align=center></td><td align=center></td></tr><tr><td>U1</td><td align=center>1</td><td align=center>MSP430FR6972</td><td align=center>MSP430FR6972</td><td align=center>Housings_DFN_QFN:QFN-64-1EP_9x9mm_Pitch0.5mm</td><td align=center></td><td align=center></td><td align=center></td></tr><tr><td>U2</td><td align=center>1</td><td align=center>LCD-F-91W</td><td align=center>LCD-F-91W</td><td align=center>f-91w:LCD-F-91W</td><td align=center></td><td align=center></td><td align=center></td></tr><tr><td>U3</td><td align=center>1</td><td align=center>TSOP57xxx</td><td align=center>TSOP57xxx</td><td align=center>f-91w:TSOP57xxx</td><td align=center></td><td align=center></td><td align=center></td></tr><tr><td>U4</td><td align=center>1</td><td align=center>MAG3110</td><td align=center>MAG3110</td><td align=center>Housings_DFN_QFN:DFN-10-1EP_2x2mm_Pitch0.4mm</td><td align=center></td><td align=center></td><td align=center></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
