@@ -23,7 +23,8 @@ a MSP430FR6972 MCU, a digital magnetometer (compass) and a 38 kHz
 infrared receiver for software updates and communication. Due to 
 careful planning and luck, the Pluto PCB perfectly fits inside of the 
 F-91W's mounting frame, although it houses many more components.
-[Schematic as PDF](f-91w.pdf)
+[Schematic as PDF](f-91w.pdf) [BOM][f-91w.bom]
+[BOM with Mouser part numbers][bom_mouser.txt]
 
 ##MCU
 The MSP430FR6972 is a low-power 16bit MCU with integrated segment LCD 
@@ -46,6 +47,19 @@ The backlight LED is connected to two GPIO pins, so that LEDs of either
 orientation can be fitted.
 The driving circuit for the buzzer uses an inductor (measured approx. 
 10mH) to boost the battery voltage for increased volume.
+
+##PCB
+We manufactured the PCB at [elecrow](http://www.elecrow.com). PCB 
+thickness has to be 0.6mm for the PCB to fit between battery clip and plastic 
+frame. Note that the PCB has "castellated vias" (for contacting the 
+button springs) as PCB manufacturers usually surcharge for these. We 
+chose to use ENIG (gold) finish since the original PCB is gold-plated 
+as well and Casio wouldn't have done so if this wasn't strictly 
+necessary. Unfortunately, not all vias are covered with solder mask due 
+manufacturing details (in the gerber files, they are), so you'll have 
+to insulate the bottom side of the PCB from the battery with sticky 
+tape.
+
 
 #Software
 For details on the software, see the software repository at 
