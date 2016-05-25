@@ -156,6 +156,9 @@ package.
 
 So we went back to F-91W.
 
-
+##Measuring current consumption
+For plotting current consumption over time, the EnergyTrace feature of 
+the MSP430FR4133 LaunchPad has proven to be really useful: 
+[energytrace-util](https://github.com/carrotIndustries/energytrace-util)
 
 
