@@ -2,6 +2,7 @@ Pluto is a programmable digital watch that re-uses case and LCD
 panel of the Casio® F-91W.  This is the hardware repo, for the 
 software side of things, see [pluto-fw](https://github.com/carrotIndustries/pluto-fw).
 Looking for pictures? [There you go.](photos/)
+You can discuss the project and ask questions on the [EEVblog forum](http://www.eevblog.com/forum/oshw/diy-watch-based-on-the-casio-f-91w/)
 
 #Features
 - Displays time in decimal/binary/hexadecimal base
