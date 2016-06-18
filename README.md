@@ -10,12 +10,13 @@ You can discuss the project and ask questions on the [EEVblog forum](http://www.
 - Multiple countdown timers
 - Uses RTTTL ringtones for alarm sound
 - Stopwatch
-- Compass (WIP)
+- Compass
+- Speedometer (Enter distance, watch measures time and displays speed in km/h)
 - Generation of time-based one-time passwords according to RFC 6238 (WIP)
 - Menu-driven interface
 - Infrared receiver for software updates and TOTP secret transfer (WIP)
 - Useless customisation (Key beep frequency, etc.)
-- approx. 1 year battery life (estimate based on current consumption)
+- greater than 1 year battery life (estimate based on current consumption)
 
 
 #Hardware
