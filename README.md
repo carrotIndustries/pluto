@@ -1,3 +1,5 @@
+Pluto will be at the 33C3, for more info check the [wiki page](https://events.ccc.de/congress/2016/wiki/Projects:Pluto).
+
 Pluto is a programmable digital watch that re-uses case and LCD 
 panel of the Casio® F-91W.  This is the hardware repo, for the 
 software side of things, see [pluto-fw](https://github.com/carrotIndustries/pluto-fw).
@@ -164,4 +166,3 @@ So we went back to F-91W.
 For plotting current consumption over time, the EnergyTrace feature of 
 the MSP430FR4133 LaunchPad has proven to be really useful: 
 [energytrace-util](https://github.com/carrotIndustries/energytrace-util)
-s
