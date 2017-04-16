@@ -6,7 +6,7 @@ software side of things, see [pluto-fw](https://github.com/carrotIndustries/plut
 Looking for pictures? [There you go.](photos/)
 You can discuss the project and ask questions on the [EEVblog forum](http://www.eevblog.com/forum/oshw/diy-watch-based-on-the-casio-f-91w/)
 
-#Features
+# Features
 - Displays time in decimal/binary/hexadecimal base
 - Multiple alarms
 - Multiple countdown timers
@@ -21,7 +21,7 @@ You can discuss the project and ask questions on the [EEVblog forum](http://www.
 - greater than 1 year battery life (estimate based on current consumption)
 
 
-#Hardware
+# Hardware
 Pluto replaces the PCB of the Casio F-91W with a custom one containing 
 a MSP430FR6972 MCU, a digital magnetometer (compass) and a 38 kHz 
 infrared receiver for software updates and communication. Due to 
@@ -30,29 +30,29 @@ F-91W's mounting frame, although it houses many more components.
 [Schematic as PDF](f-91w.pdf) [BOM](f-91w.bom)
 [BOM with Mouser part numbers](bom_mouser.txt)
 
-##MCU
+## MCU
 The MSP430FR6972 is a low-power 16bit MCU with integrated segment LCD 
 controller. It can be programmed and debugged using the two-wire 
 SBW interface accessible through holes in the mounting frame. 
 
-##Digital Magnetometer
+## Digital Magnetometer
 The MAG3110 compass is connected to the MCU via I²C. To reduce its power 
 consumption to zero when not in use, it's powered from GPIO pin. Due to 
 layout constraints, the MCU's I²C interface can't be used, so the 
 MCU's firmware has to implement a bit-banged I²C master controller.
 
-##Infrared Receiver
+## Infrared Receiver
 The TSOP57338 38kHz IR receiver is powered from GPIO pin as well since 
 it doesn't have any power saving modes. Transmitter and firmware 
 support are WIP.
 
-##Other components
+## Other components
 The backlight LED is connected to two GPIO pins, so that LEDs of either 
 orientation can be fitted.
 The driving circuit for the buzzer uses an inductor (measured approx. 
 10mH) to boost the battery voltage for increased volume.
 
-##PCB
+## PCB
 We manufactured the PCB at [elecrow](http://www.elecrow.com). PCB 
 thickness has to be 0.6mm for the PCB to fit between battery clip and plastic 
 frame. Note that the PCB has "castellated vias" (for contacting the 
@@ -65,18 +65,18 @@ to insulate the bottom side of the PCB from the battery with sticky
 tape.
 
 
-#Software
+# Software
 For details on the software, see the software repository at 
 [pluto-fw](https://github.com/carrotIndustries/pluto-fw).
 
-#Why?
+# Why?
 I used to own an ez430-Chronos watch, but after several years of use, 
 the rubber wrist strap disintegrated, so I needed a new programmable watch. 
 Pretty much all of the existing DIY watches are impractical for daily 
 use because of bulk, being not waterproof or having miserable battery 
 life. 
 
-#PAQ (Possibly asked questions)
+# PAQ (Possibly asked questions)
 Q: Why not just use a smartwatch?  
 A: Smartwatches have a miserable battery life of one week at best. Some 
 even require user interaction to display the time.
@@ -98,14 +98,14 @@ for applications like sleep trackers, pedometers or features like
 coin cell in less than half a year.  So we decided to dedicate the 
 available space to a digital compass.
 
-#Credits
+# Credits
 Thanks go to [sh-ow](https://github.com/sh-ow) for adding the compass 
 and helping to get the board ready for manufacturing.
 
-#Mixed bag
+# Mixed bag
 Stuff loosely related to this project
 
-##Reverse Engineering bare glass LCD panels
+## Reverse Engineering bare glass LCD panels
 For basics on bare glass LCD panels and how to drive them,
 see application notes from various MCU vendors.
 
@@ -118,7 +118,7 @@ Sometimes apparently independent LCD segments are driven as one segment
 to save SEG pins. 
 
 
-##Reverse engineering intricate PCB outlines
+## Reverse engineering intricate PCB outlines
 The F91-W's original PCB has a rather complicated outline that needs to 
 be duplicated with high precision, so that the Pluto PCB fits nicely 
 within the existing mounting frame.
@@ -137,7 +137,7 @@ Inkscape and GIMP (for correcting camera distortion) work well for
 these tasks. The resulting outline has been exported as a dxf document 
 for importing the outline in KiCad.
 
-##Things that didn't work out
+## Things that didn't work out
 The project started off with the intent of re-purposing the the F-91W 
 case and LCD. Unfortunately, the LCD panel of the F-91W is rather 
 limited since some LCD segments are driven as one segment.
@@ -162,7 +162,7 @@ package.
 
 So we went back to F-91W.
 
-##Measuring current consumption
+## Measuring current consumption
 For plotting current consumption over time, the EnergyTrace feature of 
 the MSP430FR4133 LaunchPad has proven to be really useful: 
 [energytrace-util](https://github.com/carrotIndustries/energytrace-util)
