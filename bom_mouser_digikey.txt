@@ -1,0 +1,31 @@
+Mouser
+--------------------------------------------------------------------------------
+QTY  Mouser Part No           MPN                   Description
+1    71-CRCW0402100RFKEDH     CRCW0402100RFKEDHP    0402 1/8watt 100ohms 1%
+2    810-C1005NP01H120J0A     C1005NP01H120J050BA   0402 12pF 50volts
+1    720-LOY876Q2T124Z        LO Y876-Q2T1-24-Z     Orange, 606nm, side view
+1    559-NC26-LF              NC26LF-327            32.768 KHz 2X6
+5    810-C1005X7R1E104K       C1005X7R1E104K050BB   0402 100nF 10% 25Volts
+1    841-MAG3110FCR1          MAG3110FCR1           XYZ DIGITAL SENSOR
+1    78-TSOP57438TT1          TSOP57438TT1          IR SENSOR IC 38KHZ
+1    594-MCS04020C4702FE0     MCS04020C4702FE000    0402 .063W 47Kohm 1%
+1    71-TNPW040210K0DETD      TNPW040210K0DETD      0402 10Kohms .5% 25ppm
+1    771-BC846BT115           BC846BT,115           SOT-416-3 TRANS GP TAPE-7
+1    810-C1005X5R0J475K       C1005X5R0J475K050BC   0402 4.7uF 6.3volts
+1    595-430FR6972IRGCR       MSP430FR6972IRGCR     16-bit Microcontroller (TI)
+
+Digikey
+--------------------------------------------------------------------------------
+QTY  Digikey Part No          MPN                   Description
+1    541-2910-1-ND            RCS0402100RJNED 	    0402 100 OHM 5% 1/5W
+2    445-13786-1-ND           C1005NP01H120J050BA   0402 12pF 50volts
+1    475-1167-1-ND            LO Y876-R2T1-24-Z     Orange, 606nm, side view
+1    631-1205-ND              NC26LF-327            32.768 KHz 2X6
+5    445-7348-2-ND            C1005X7R1E104K050BB   0402 100nF 10% 25Volts
+1    MAG3110FCR1CT-ND         MAG3110FCR1           XYZ DIGITAL SENSOR
+1    TSOP57438TT1CT-ND        TSOP57438TT1          IR SENSOR IC 38KHZ
+1    541-47.0KLCT-ND          CRCW040247K0FKED 	 	0402 47K OHM 1% 1/16W
+1    541-10.0KLCT-ND          CRCW040210K0FKED      0402 10K OHM 1% 1/16W
+1    BC847BTT1GOSCT-ND        BC847BTT1G 	        TRANS NPN 45V 0.1A SC75-3
+1    445-5947-1-ND            C1005X5R0J475K050BC   0402 4.7uF 6.3volts
+1    296-42269-1-ND           MSP430FR6972IRGCR     16-bit Microcontroller (TI)
