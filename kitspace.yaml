@@ -1,0 +1,4 @@
+gerbers: output/
+bom: 1-click-bom.csv
+site: http://www.eevblog.com/forum/oshw/diy-watch-based-on-the-casio-f-91w/
+summary: A programmable digital watch that re-uses case and LCD panel of the Casio® F-91W
